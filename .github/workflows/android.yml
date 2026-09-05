@@ -44,3 +44,4 @@ jobs:
         with:
           name: Space-Invaders-APK
           path: bin/*.apk
+
