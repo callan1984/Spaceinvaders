@@ -44,6 +44,11 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install buildozer
 
+      - name: Update python-for-android
+        run: |
+          python -m pip install --upgrade \
+            "python-for-android @ git+https://github.com/kivy/python-for-android.git@develop"
+
       - name: Build APK
         run: |
           buildozer android debug
