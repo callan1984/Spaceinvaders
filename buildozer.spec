@@ -17,6 +17,8 @@ fullscreen = 0
 
 android.accept_sdk_license = True
 
+p4a.branch = develop
+
 
 [buildozer]
 
